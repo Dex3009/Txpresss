@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Poetsen+One&family=Rubik+Glitch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+12&family=Poetsen+One&family=Rubik+Glitch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+12&family=Permanent+Marker&family=Poetsen+One&family=Rubik+Glitch&display=swap');
+
+
+.dasboard{
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+ 
+}
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  /* body { */
+    /* background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0; */
+  /* } */
+  .hey{
+    background-color: rgb(29, 27, 27);
+    background-position: top center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    content: "";
+    /* position: absolute; 
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    border-radius: 1%;
+  /*   z-index: -1; */
+  }
+  .SwiperPage{
+    background-image: url(https://img.freepik.com/free-photo/stylish-black-woman-car-salon_1157-21421.jpg?t=st=1716936971~exp=1716940571~hmac=f4c2e5c2ca6decd2c592aefd46291acaa491555659748a66789a718637014571&w=740);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    content: "";
+    border-radius: 3%;
+    color: beige;
+  }
+  .SwiperPage2{
+    background-image: url(https://img.freepik.com/free-photo/close-up-delivery-person-with-parcels_23-2149095947.jpg?t=st=1716937473~exp=1716941073~hmac=e7c6f0d2b9fc10ad2c32b260ea589a67c2b119764d871cabe180391749041cf0&w=740);
+    background-position:  center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    content: "";
+    border-radius: 3%;
+    color: beige;
+  }
+  .SwiperPage3{
+    background-image: url(https://img.freepik.com/free-photo/horizontal-view-ethnic-lady-gives-instruction-how-get-place-touches-cheek-with-palm-dressed-fashionable-clothing-smiles-pleasantly_273609-34322.jpg?t=st=1716940305~exp=1716943905~hmac=b1787dbcfa20698b7e9f4b37e0f7a2d823103f6f22f8d477772881ce80620e0a&w=740);
+    background-position:  center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    content: "";
+    border-radius: 3%;
+    color: black;
+  }
+  
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .text{
+    margin-top: 12%;
+  }
+  .text button{
+    padding: 1% 1%;
+    background-color: rgb(0,0,0,0);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10%;
+
+  }
+  .SwiperPage3 .text p{
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 3%;
+     font-family:cursive ;
+     padding-bottom: 6%;
+  }
+  .SwiperPage3 .plane h2{
+    color: beige;
+
+  }
+  .SwiperPage3 .plane h2{
+    color: beige;
+
+  }
+  .text h2 {
+    font-size: 50px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  span{
+    color: rgb(243, 210, 119);
+    font-size: 150%;
+    padding-left: -10%;
+  }
+  .plane H2{
+    margin-left: auto;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+
+  .text h4{
+    color: beige;
+    font-family: cursive;
+  }
+  .leftNav{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.leftNav h2{
+    display: flex;
+    align-items: center;
+    color: rgb(243, 210, 119);
+    font-size: 15px;
+    margin-left: auto;
+    padding: 4% 4%;
+}
+.text p{
+  margin: auto;
+  padding: 2%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.patnersLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+  padding: 2%;
+}
+.patners p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  padding: 2%;
+  font-size: 20px;
+}
+.patners span{
+  font-family: "Poetsen One", sans-serif;
+}
+.patners {
+  background-color: rgba(243, 235, 215, 0.5);
+  margin-top: 2%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+

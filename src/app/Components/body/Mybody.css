@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Poetsen+One&family=Rubik+Glitch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+12&family=Poetsen+One&family=Rubik+Glitch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jacquard+12&family=Permanent+Marker&family=Poetsen+One&family=Rubik+Glitch&display=swap');
+.card1{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2% 4%;
+    margin: 4%;
+    /* margin-right: 70%; */
+    word-spacing: 2%;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/free-photo/mid-shot-friends-shaking-hands-front-food-truck_23-2148757251.jpg?t=st=1717062920~exp=1717066520~hmac=f4a80ea024689a9d2ab72273d5d29b1c481afa6d4a05fb855aa8c0d0d592cb84&w=740);
+    background-position:  center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    content: "";
+  }
+  .card1 h5{
+    font-size: 20px;
+    background-color: white;
+    /* opacity: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px;
+    margin-right: 95%;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    color: black;
+  }
+  .card1 h2{
+    padding: 2% 0%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(243, 210, 119);
+  }
+  .card1 h4{
+    width: 75%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(7, 7, 7);
+    font-size:20px;
+    word-spacing: 2%;
+  }
+  .card1 p{
+    margin-right: auto;
+    gap: 50px;
+    padding-top: 3%;
+  }
+  .card1 span{
+    margin-right: auto;
+    color: black;
+  }
+
+  /* /................... card2 ..................../ */
+  .card2{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2% 4%;
+    margin: 4%;
+    /* margin-right: 70%; */
+    word-spacing: 2%;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/free-photo/commercial-airplane-flying-clouds_90220-1444.jpg?t=st=1717063079~exp=1717066679~hmac=857c69fb7f5fe03ce2401a59eee6c32bd9413e87ed3bd5d2c114013808f32f7a&w=740);
+    background-position:  center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    content: "";
+  }
+  .card2 h5{
+    font-size: 20px;
+    background-color: white;
+    /* opacity: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px;
+    margin-right: 95%;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    color: black;
+  }
+  .card2 h2{
+    padding: 2% 0%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(243, 210, 119);
+  }
+  .card2 h4{
+    width: 75%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(7, 7, 7);
+    font-size:20px;
+    word-spacing: 2%;
+  }
+  .card2 p{
+    margin-right: auto;
+    gap: 50px;
+    padding-top: 3%;
+  }
+  .card2 span{
+    margin-right: auto;
+    color: black;
+  }
+  .cards{
+    display: flex;
+  }
+
+  /* /................... card3 ..................../ */
+
+  .card3{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2% 4%;
+    margin: 4%;
+    /* margin-right: 70%; */
+    word-spacing: 2%;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/free-photo/smiley-couple-traveling-by-car_23-2148714873.jpg?t=st=1717063243~exp=1717066843~hmac=ae38abdad904c7373db29418c4968f940208f6db55b6d20577a0b33c722ccace&w=740);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    content: "";
+  }
+  .card3 h5{
+    font-size: 20px;
+    background-color: white;
+    /* opacity: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px;
+    margin-right: 95%;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    color: black;
+  }
+  .card3 h2{
+    padding: 2% 0%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(243, 210, 119);
+  }
+  .card3 h4{
+    width: 75%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(7, 7, 7);
+    font-size:20px;
+    word-spacing: 2%;
+  }
+  .card3 p{
+    margin-right: auto;
+    gap: 50px;
+    padding-top: 3%;
+  }
+  .card3 span{
+    margin-right: auto;
+    color: black;
+  }
